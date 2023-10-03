@@ -312,6 +312,7 @@ ENDMODULE
 
 Como se puede observar en la simulacion se tienen 4 I/O digitales, 2 entradas y 2 salidas:
 
+
     -DO_1: salida digital 1 indica cuando se encuentra realizando la rutina de escritura.
     -DO_3: salida digital 3 indica cuando se encuentra realizando la rutina de ir a poscion de mantenimiento.
     -DI_1: entrada digital 1 al presionarse entra en la rutina de escritura.
