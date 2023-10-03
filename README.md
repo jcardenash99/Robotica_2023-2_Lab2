@@ -17,10 +17,10 @@ Iniciamos la práctica revisando y comprendiendo en profundidad el funcionamient
 ![Tablero de Entradas y Salidas](./TableroInOn.png)
 ![Cableado](Cableado.png)
 
-Adaptamos el programa del anterior laboratorio en lenguaje RAPID que permita la configuración de dos entradas digitales y dos salidas digitales. Nos aseguramos de que estas entradas y salidas estuvieran mapeadas y configuradas adecuadamente en el código.
+Adaptamos el programa del anterior laboratorio donde generamos unas trayectorias escribiendo nuestros nombres en lenguaje RAPID, que permita la configuración de dos entradas digitales y dos salidas digitales. Nos aseguramos de que estas entradas y salidas estuvieran mapeadas y configuradas adecuadamente en el código.
 
 Programamos la primera señal de entrada1(DI_01) para iniciar una rutina de escritura en una superficie específica. Utilizamos las salidas digitales para controlar el brazo del robot y encender una luz de indicación al inicio de la rutina.
-Al finalizar la rutina, aseguramos que el brazo del robot regresara a su posición de inicio, donde todos los ángulos articulares se establecieran en 0 grados.
+Al finalizar la rutina, aseguramos que el brazo del robot regresara a su posición de inicio (HOME), donde todos los ángulos articulares se establecieran en 0 grados.
 
 Programamos la segunda señal de entrada (DI_02) para posicionar el brazo del robot en una pose de mantenimiento. Esta pose permitía la instalación o desinstalación de una herramienta y, al mismo tiempo, apagaba la luz de indicación.
 ![Entradas](./FlexpendantEntradas.jpg)
@@ -322,7 +322,7 @@ Como se puede observar en la simulacion se tienen 4 I/O digitales, 2 entradas y 
 #### Ejecucion de rutinas
 [Rutinas.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab2/assets/61796945/6d49a82b-46a2-440e-904b-a31f2e09e6a9)
 
-Aqui en la ejecución de rutinas podemos observar la ejecucion de las rutinas al recibir una entrada.
+Aqui en la ejecución de rutinas podemos observar la ejecucion de las rutinas al recibir una entrada indicada por el operador mediante un pulsador en el tablero de control.
 
     -DI_1: entrada digital 1 ejecuta la rutina de escritura,
     -DO_1: salida digital 1 indica cuando la rutina de escritura esta activa,
@@ -339,5 +339,5 @@ Aqui se observa como al ejecutarse las rutinas el flexPendant muestra un mensaje
 
 [mantenimiento.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab2/assets/61796945/0b5f759d-2d49-46ea-8cb0-b70ac21cad16)
 
-Aqui se observa la ejecución de la rutina de mantenimiento y cuando se retira la herramienta y regreso a home.
+Aqui se observa la ejecución de la rutina de mantenimiento en la cual se hace el retiro de la herrmaienta una vez se da por terminada el robot hace su regreso ala posición de home.
 
