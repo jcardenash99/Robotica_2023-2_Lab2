@@ -323,6 +323,7 @@ Como se puede observar en la simulacion se tienen 4 I/O digitales, 2 entradas y 
 [Rutinas.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab2/assets/61796945/6d49a82b-46a2-440e-904b-a31f2e09e6a9)
 
 Aqui en la ejecución de rutinas podemos observar la ejecucion de las rutinas al recibir una entrada.
+
     -DI_1: entrada digital 1 ejecuta la rutina de escritura,
     -DO_1: salida digital 1 indica cuando la rutina de escritura esta activa,
     -DI_3: entrada digital 3 inicia la rutina de mantenimiento, al presionar durante la rutina de mantenimiento sale de esta.
