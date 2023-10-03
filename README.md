@@ -317,4 +317,25 @@ Como se puede observar en la simulacion se tienen 4 I/O digitales, 2 entradas y 
     -DI_1: entrada digital 1 al presionarse entra en la rutina de escritura.
     -DI_2 entrada digital 2 al presionarse entra en posción de mantenimiento, al presionarse en la posición de mantenimiento regresa a home.
     
- 
+ ### 4. Implementación del programa simulado
+#### Ejecucion de rutinas
+[Rutinas.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab2/assets/61796945/6d49a82b-46a2-440e-904b-a31f2e09e6a9)
+
+Aqui en la ejecución de rutinas podemos observar la ejecucion de las rutinas al recibir una entrada.
+    -DI_1: entrada digital 1 ejecuta la rutina de escritura,
+    -DO_1: salida digital 1 indica cuando la rutina de escritura esta activa,
+    -DI_3: entrada digital 3 inicia la rutina de mantenimiento, al presionar durante la rutina de mantenimiento sale de esta.
+    -DO_2: salida digital 2 indica cuando se ejecuta la rutina de mantenimiento.
+
+Todas las rutinas culminan con la rutina de Homming() la cual lleva al robot a posición de 0° en todos los ejes.
+#### Excritura en el flexPendant
+[Flex pendant info.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab2/assets/61796945/6f084b1d-b1d5-4f69-a759-8937ab9c1f28)
+
+Aqui se observa como al ejecutarse las rutinas el flexPendant muestra un mensaje indicando en que rutina se encuentra, tambien muestra un mensaje cuando el programa se encuentra en la rutona main().
+
+#### Posición de mantenimiento y retirar herramienta
+
+[mantenimiento.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab2/assets/61796945/0b5f759d-2d49-46ea-8cb0-b70ac21cad16)
+
+Aqui se observa la ejecución de la rutina de mantenimiento y cuando se retira la herramienta y regreso a home.
+
