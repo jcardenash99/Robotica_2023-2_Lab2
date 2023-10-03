@@ -309,3 +309,12 @@ ENDMODULE
 ```
 ### 3. Video que contenga la simulacion en RobotStudio asi como la implementacion de la practica con los robotsreales.
 [Simulacion laboratorio 2.webm](https://github.com/jcardenash99/Robotica_2023-2_Lab2/assets/61796945/5be29755-c5bf-4010-a2cb-2a4d1bbc862c)
+
+Como se puede observar en la simulacion se tienen 4 I/O digitales, 2 entradas y 2 salidas:
+
+    -DO_1: salida digital 1 indica cuando se encuentra realizando la rutina de escritura.
+    -DO_3: salida digital 3 indica cuando se encuentra realizando la rutina de ir a poscion de mantenimiento.
+    -DI_1: entrada digital 1 al presionarse entra en la rutina de escritura.
+    -DI_2 entrada digital 2 al presionarse entra en poscion de mantenimiento, al posicionarse en la posicion de mantenimiento regresa a home.
+    
+ 
